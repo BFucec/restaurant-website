@@ -1,0 +1,37 @@
+navbar
+gallery
+menu
+about us
+find us
+footer
+--------------------------------
+menu -> data.js
+gallery -> import from images.js
+title of each section -> SubHeading
+
+--------------------------------
+
+justify-content: horizontal poravnanje
+align-items: vertikalno poravnanje
+
+--------------------------------
+FOOD
+- tortillas
+- cheeseburger
+- ribs
+- pizza
+- chicken wings
+- cevapi
+- grilled chicken
+- fries
+
+
+
+
+
+
+
+
+
+
+

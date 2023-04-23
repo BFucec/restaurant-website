@@ -1,0 +1,103 @@
+.app__findUs{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--color-lightgrey);
+    width: 100%;
+    padding: 2rem 6rem 4rem 6rem;
+}
+
+.app__findUs-headtext{
+    font-family: var(--font-family);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.app__findUs-content{
+    font-family: var(--font-family);
+    margin-bottom: 1rem;
+}
+
+.app__findUs-location{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 2rem;
+   
+}
+
+.app__findUs-hours{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.app__findUs-contact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.app__findUs-divider{
+    
+    border: 1px solid var(--color-orange);
+    height: 200px;
+    width: 1px;
+
+}
+
+@media screen and (min-width: 2000px){
+
+    
+}
+
+@media screen and (max-width: 1150px){
+    .app__findUs{
+        flex-direction: column;
+        align-items: center;
+   }
+   .app__findUs-address,
+   .app__findUs-hours,
+   .app__findUs-contact{
+        align-items: flex-start;
+   }
+   .app__findUs-divider{
+        height: 1px;
+        width: 100%;
+        margin-bottom: 2rem;
+   }
+}
+
+@media screen and (max-width: 850px){
+   .app__findUs{
+        flex-direction: column;
+        align-items: center;
+   }
+   .app__findUs-address{
+        align-items: flex-start;
+
+   }
+   .app__findUs-hours{
+        align-items: flex-start;
+    
+   }
+   .app__findUs-contact{
+        align-items: flex-start;
+    
+   }
+}
+
+@media screen and (max-width: 650px){
+    .app__findUs{
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,129 @@
+.app__menu{
+    background-color: var(--color-lightgrey);
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__menu-title{
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 6rem;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.app__menu-textcontent{
+    font-family: var(--font-family);
+    margin-bottom: 1rem;
+}
+
+.app__menu-headtext{
+    font-family: var(--font-family);
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.app__menu-menu{
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.app__menu-menu_left{
+
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__menu-menu_right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__menu-menu-divider{
+    width: 2rem;
+    margin: 0 2rem;
+}
+
+.app__menu-menu_items{
+    width: 100%;
+    flex-direction: column;
+    margin: 1.5rem 0;
+
+}
+
+.app__menu-menu-fnd{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 55px;
+    color: var(--color-black);
+}
+
+@media screen and (max-width: 2000px){
+    .app__menu-menu_items{
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .app__menu-menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .app__menu-title{
+        padding: 0 6rem;
+        align-items: start;
+    }
+
+    .app__menu-menu_items{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .app__menu-menu-divider{
+        display: none;
+    }
+
+    .app__menu-title{
+        min-width: 100%;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .app__menu-menu-divider{
+        display: none;
+    }
+
+    .app__menu-title{
+        min-width: 100%;
+        padding: 0 2rem;
+    }
+
+}
+
